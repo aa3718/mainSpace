@@ -1,0 +1,79 @@
+#headerTile {
+    font-family: "Avenir Next";
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    border-bottom-width: 1px;
+    height: 180px;
+}
+
+h1 {
+ padding: 5px;
+    margin: 5px;   
+}
+
+button {
+    position: absolute;
+    left: 50%;
+}
+
+#allTheContent li {
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+    background-color: black;
+    text-align: center;
+    font-family: "Avenir Next";
+    color: grey;
+    font-size: 30px;
+    width: 180px;
+    height: 180px;
+    box-shadow: 15px 15px 15px lightgrey;  
+    border-radius: 180px; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#allTheContent li:nth-child(1) {
+    background-image: url();
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#allTheContent li:nth-child(2) {
+    background-image: url();
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#boxOfOtherContent li{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 5px;   
+}
+
+#boxOfOtherContent li:nth-child(1) {
+    background-image: url();
+}
+
+#boxOfOtherContent li:nth-child(2) {
+    background-image: url();
+}
+
+#boxOfOtherContent li:nth-child(3) {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/40/00/1a/40001ae444f0e2ae363e2cc6a0610cd0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
